@@ -11,3 +11,6 @@ You work in a company for sustainable energy. You are asked to create a Data War
 
 #### A. Dataset
 The dataset used comes from Kaggle which can be accessed [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce).
+
+#### B. Data Modeling
+1. Create a data warehouse design along with details of the fact table and dimension table.
