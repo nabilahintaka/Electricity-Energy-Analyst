@@ -12,15 +12,18 @@ You work in a company for sustainable energy. You are asked to create a Data War
 #### A. Dataset
 The dataset used comes from Kaggle which can be accessed [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce).
 
-#### B. Data Modeling
+#### B. SMART Framework
+Before determining the table, column, or other things in the dataset that will be used for data analysis and visualization. First introduce and describe the problem to make it easier to do the analysis, create a problem statement and using the SMART method:
+
+#### C. Data Modeling
 1. Create a data warehouse design along with details of the fact table and dimension table.
 
-#### C. Extract
+#### D. Extract
 
 
-#### D. Transform
+#### E. Transform
 
 
 
-#### E. Load
+#### F. Load
 
