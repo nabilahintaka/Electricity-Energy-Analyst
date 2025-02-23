@@ -14,3 +14,13 @@ The dataset used comes from Kaggle which can be accessed [here](https://console.
 
 #### B. Data Modeling
 1. Create a data warehouse design along with details of the fact table and dimension table.
+
+#### C. Extract
+
+
+#### D. Transform
+
+
+
+#### E. Load
+
