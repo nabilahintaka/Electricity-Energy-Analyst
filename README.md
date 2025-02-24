@@ -21,7 +21,15 @@ Before determining the table, column, or other things in the dataset that will b
       + R: Focus identification on the level of electricity and population welfare
       + T: The results of this analysis will be completed within 1 week
 
-#### C. Data Modeling
+#### C. Breaking Down the Problem
+  - Which countries are the top 5 electricity producers from fossil fuels, nuclear, and renewable energy in the last 5 years?
+  - How do the top 5 electricity producing countries compare the CO2 emission levels from fossil fuels, nuclear and renewable energy in the last 5 years?
+  - How has financial assistance from developed countries to developing countries affected the development of clean energy in the last 5 years?
+  - How is the relationship between access to electricity and the welfare of the population in the country in question in the last 5 years?
+  - Is there a difference between clean energy production in developed countries and clean energy production in developing countries in the last 5 years?
+
+
+#### D. Data Modeling
 1. Create a data warehouse design along with details of the fact table and dimension table.
 
 #### D. Extract
