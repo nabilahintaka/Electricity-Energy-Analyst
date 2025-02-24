@@ -10,7 +10,7 @@ This is a repository to showcase my data analytics skills and projects that i ge
 You work in a company for sustainable energy. You are asked to create a Data Warehouse, ETL, dashboardfor the company's analysis. Climate change is an urgent global challenge. To address it, the transition from fossil fuels to clean and renewable energy sources is crucial. Access to energy, especially electricity, is fundamental to social and economic development.
 
 #### A. Dataset
-The dataset used comes from Kaggle which can be accessed [here](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=thelook_ecommerce).
+The dataset used comes from Kaggle which can be accessed [here]([https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy]).
 
 #### B. SMART Framework
 Before determining the table, column, or other things in the dataset that will be used for data analysis and visualization. First introduce and describe the problem to make it easier to do the analysis, create a problem statement and using the SMART method:
