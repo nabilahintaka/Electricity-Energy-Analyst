@@ -41,8 +41,8 @@ Import dataset sourced from raw data in CSV format: global-data-on-sustainable-e
   - Data type adjustments.
   - Filling missing values.
   - Storing data according to the fact and dimension tables that have been specified in data modeling: fact, dim_country, dim_country_economic
-  Great Expectation
-  Validator :
+  - Great Expectation
+    Validator :
     - Not to be NULL (Ensure there are no Missing Values)
     - To be in type list (Ensure the data type matches the required type)
     - Column to exist (Check the availability of the required columns)
@@ -54,3 +54,13 @@ Import dataset sourced from raw data in CSV format: global-data-on-sustainable-e
   - Creating fact and dimension tables in the database.
   - Reading CSV files that have been transformed into dataFrame according to fact and dimension tables.
   - Adding data (insert) to fact and dimension tables.
+
+#### G. Create
+  - Create a datamart from fact and dimension tables.
+  - Add a new column to the datamart, namely country_classification (merging the country_name and gdp_per_capita columns).
+  - Connect the Neon database to PostgreSQL.
+
+Airflow DAG
+Sequencing of work flow execution processes (workflow)
+![image](https://github.com/user-attachments/assets/d749931d-bfe6-4ebe-b560-adee4f6fe34e)
+Because the data has a range per year, the Airflow DAG will run when the time has changed to another year.
