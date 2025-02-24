@@ -33,15 +33,24 @@ Before determining the table, column, or other things in the dataset that will b
 1. Create a data warehouse design along with details of the fact table and dimension table.
 ![dataModelling](https://github.com/user-attachments/assets/540c540a-65d2-4e2b-9968-f8a557e57d52)
 
+#### D. Extract
+Import dataset sourced from raw data in CSV format: global-data-on-sustainable-energy.csv
 
-
-Great Expectation
-Validator :
-  - Not to be NULL (Ensure there are no Missing Values)
-  - To be in type list (Ensure the data type matches the required type)
-  - Column to exist (Check the availability of the required columns)
-  - Max to be between (Ensure the existing value does not exceed the maximum limit)
-  - Min to be between (Ensure the existing value is not less than the minimum limit)
+#### E. Transform
+  - Column naming changes, and adjustments to snake case.
+  - Data type adjustments.
+  - Filling missing values.
+  - Storing data according to the fact and dimension tables that have been specified in data modeling: fact, dim_country, dim_country_economic
+  Great Expectation
+  Validator :
+    - Not to be NULL (Ensure there are no Missing Values)
+    - To be in type list (Ensure the data type matches the required type)
+    - Column to exist (Check the availability of the required columns)
+    - Max to be between (Ensure the existing value does not exceed the maximum limit)
+    - Min to be between (Ensure the existing value is not less than the minimum limit)
 
 #### F. Load
-
+  - Connecting PostgreSQL to Neon database.
+  - Creating fact and dimension tables in the database.
+  - Reading CSV files that have been transformed into dataFrame according to fact and dimension tables.
+  - Adding data (insert) to fact and dimension tables.
