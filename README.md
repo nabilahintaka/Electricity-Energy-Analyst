@@ -31,13 +31,17 @@ Before determining the table, column, or other things in the dataset that will b
 
 #### D. Data Modeling
 1. Create a data warehouse design along with details of the fact table and dimension table.
-
-#### D. Extract
-
-
-#### E. Transform
+![dataModelling](https://github.com/user-attachments/assets/540c540a-65d2-4e2b-9968-f8a557e57d52)
 
 
+
+Great Expectation
+Validator :
+  - Not to be NULL (Ensure there are no Missing Values)
+  - To be in type list (Ensure the data type matches the required type)
+  - Column to exist (Check the availability of the required columns)
+  - Max to be between (Ensure the existing value does not exceed the maximum limit)
+  - Min to be between (Ensure the existing value is not less than the minimum limit)
 
 #### F. Load
 
