@@ -7,7 +7,7 @@ This is a repository to showcase my data analytics skills and projects that i ge
 ---
 
 # Cases & Background
-You work in a company for sustainable energy. You are asked to create a Data Warehouse, ETL, dashboardfor the company's analysis. Climate change is an urgent global challenge. To address it, the transition from fossil fuels to clean and renewable energy sources is crucial. Access to energy, especially electricity, is fundamental to social and economic development.
+You work in a company for sustainable energy. You are asked to create a Data Warehouse, ETL, dashboard for the company's analysis. Climate change is an urgent global challenge. To address it, the transition from fossil fuels to clean and renewable energy sources is crucial. Access to energy, especially electricity, is fundamental to social and economic development.
 
 #### A. Dataset
 The dataset used comes from Kaggle which can be accessed [here](https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy).
