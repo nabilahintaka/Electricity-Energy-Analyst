@@ -64,3 +64,5 @@ Airflow DAG
 Sequencing of work flow execution processes (workflow)
 ![image](https://github.com/user-attachments/assets/d749931d-bfe6-4ebe-b560-adee4f6fe34e)
 Because the data has a range per year, the Airflow DAG will run when the time has changed to another year.
+
+Dashboard Tableau can be accessed [here](https://public.tableau.com/views/ElectricalEnergyDashboard/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
